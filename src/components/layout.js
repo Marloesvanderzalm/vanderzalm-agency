@@ -56,6 +56,11 @@ import Footer from './footer'
                   Artists
                 </Link>
               </li>
+              <li className={navLinkItem}>
+                <Link className={navLinkText} to="/contact">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </nav>
           <main>{children}</main>
@@ -68,4 +73,4 @@ import Footer from './footer'
     )
   }
   
-  export default Layout
+  export default Layout;
